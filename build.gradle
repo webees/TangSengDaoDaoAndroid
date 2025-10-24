@@ -5,12 +5,10 @@ buildscript {
     repositories {
         google()
         mavenCentral()
-        maven { url "https://jitpack.io" }
-        maven {
-            url "https://mvnrepository.com"
-        }
+        maven { url = "https://jitpack.io" }
+        maven { url = "https://mvnrepository.com" }
         //华为推送
-        maven {url 'https://developer.huawei.com/repo/'}
+        maven {url = 'https://developer.huawei.com/repo/'}
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:8.13.0'

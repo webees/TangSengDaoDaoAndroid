@@ -1,22 +1,28 @@
+# IntelliJ / Android Studio / VS Code
+.idea/
+.vscode/
 *.iml
-.gradle
-.idea
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
+
+# macOS
 .DS_Store
-/build
-/wkbase/build
-/wklogin/build
-/wkscan/build
-/wkpush/build
-/wkuikit/build
-/captures
-.externalNativeBuild
-.cxx
+
+# Gradle
+.gradle/
+.build/
 local.properties
-/.vscode
+
+# Android build outputs
+build/
+captures/
+
+# NDK / CMake / External builds
+.externalNativeBuild/
+.cxx/
+
+# Other temporary IDE files
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
